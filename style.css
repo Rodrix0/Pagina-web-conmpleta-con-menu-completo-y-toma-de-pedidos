@@ -1,0 +1,45 @@
+/* Estilos para el submenu */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    color: #333;
+}
+
+.navbar .submenu .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f4f4f4;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .submenu:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    width: 200px;
+}
+
+.dropdown a {
+    padding: 10px;
+    color: #333;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+/*fin del submenu */
